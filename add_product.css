@@ -1,0 +1,77 @@
+body {
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-color: rgb(197, 221, 221);
+}
+.navbar {
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Helvetica', cursive;
+    height: 60px;
+}
+
+nav .navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+nav .navigation a:hover {
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.data {
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    padding: 10px;
+    background-color: #200c25;
+    height: 580px;
+    color: white;
+}
+/* 0b1f1f */
+.data p{
+    display: inline;
+}
+.data h1 {
+    text-align: center;
+    font-family: 'Helvetica', cursive;
+    text-decoration:underline;
+}
+.data label {
+    margin: 5px;
+}
+.data input {
+    border-radius: 5px;
+    margin: 10px;
+    border: 0.5px solid black;
+}
+.wide_fields input {
+    width: 70%;
+}
+.input_fields {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.form-check p {
+    font-weight: 300;
+}
+.buttons {
+    float: right;
+    margin: 20px;
+}
+.data button {
+    margin-right: 20px;
+}
+
+.data button:hover {
+    transform: scale(1.2);
+}

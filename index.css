@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+body {
+    background-image: url("inventory.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    
+}
+.navbar {
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    font-family: 'Helvetica', cursive;
+    height: 60px;
+}
+
+nav .navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+nav .navigation a:hover {
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+h1 {
+    margin: 7%;
+    font-size: 100px;
+    font-weight: 300;
+    margin-top: 15%;
+    color: antiquewhite;
+    font-family: 'Andada Pro', serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin-left: 70%;
+}
+button {
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+button p{
+    color: white;
+    padding-top: 5px;
+    justify-content: center;
+    font-family: 'Hahmlet', serif;
+}
+
+button:hover {
+    transform: scale(1.2);
+}

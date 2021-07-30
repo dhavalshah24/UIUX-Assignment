@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="product_list.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navigation">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="product_list.html">Product List</a>
+          <a href="add_product.html">Add Product</a>
+        </div>
+      </div>
+    </nav>
+    <table id="product_table" class="table table-hover table-bordered">
+      <thead>
+        <tr>
+          <th class="th-sm">Product Name</th>
+          <th class="th-sm">Brand</th>
+          <th class="th-sm">Quantity</th>
+          <th class="th-sm">Price</th>
+          <th class="th-sm">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bottle</td>
+          <td>Tupperware</td>
+          <td>20</td>
+          <td>200</td>
+          <td>In stock</td>
+        </tr>
+        <tr>
+          <td>Fan</td>
+          <td>Orient</td>
+          <td>30</td>
+          <td>2000</td>
+          <td>In stock</td>
+        </tr>
+        <tr>
+          <td>Bottle</td>
+          <td>xyz</td>
+          <td>20</td>
+          <td>200</td>
+          <td>Out of stock</td>
+        </tr>
+        <tr>
+          <td>Mobile</td>
+          <td>Apple</td>
+          <td>15</td>
+          <td>70000</td>
+          <td>Out of stock</td>
+        </tr>
+        <tr>
+          <td>Fridge</td>
+          <td>Whirlpool</td>
+          <td>0</td>
+          <td>25000</td>
+          <td>In stock</td>
+        </tr>
+        <tr>
+          <td>AC</td>
+          <td>Voltas</td>
+          <td>30</td>
+          <td>20000</td>
+          <td>In stock</td>
+        </tr>
+        <tr>
+          <td>TV</td>
+          <td>Panasonic</td>
+          <td>5</td>
+          <td>30000</td>
+          <td>In stock</td>
+        </tr>
+        <tr>
+          <td>Mobile</td>
+          <td>Poco</td>
+          <td>8</td>
+          <td>17000</td>
+          <td>Out of stock</td>
+        </tr>
+        <tr>
+          <td>XYZ</td>
+          <td>ABC</td>
+          <td>5</td>
+          <td>1000</td>
+          <td>In stock</td>
+        </tr>
+        <tr>
+          <td>AC</td>
+          <td>Samsung</td>
+          <td>13</td>
+          <td>30000</td>
+          <td>Out of stock</td>
+        </tr>
+        <tr>
+          <td>TV</td>
+          <td>Poco</td>
+          <td>8</td>
+          <td>17000</td>
+          <td>Out of stock</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="product_list.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+.navbar {
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Helvetica', cursive;
+    height: 60px;
+}
+
+nav .navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+nav .navigation a:hover {
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.table {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 50px;
+    width: 80%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+td {
+    text-align: center;
+} 
