@@ -21,8 +21,11 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css"
+    />
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" href="product_list.css" />
   </head>
@@ -36,6 +39,10 @@
         </div>
       </div>
     </nav>
+    <div class="search">
+      <p>Search</p>
+      <input id="search" class="form-control" onkeyup="searchTable()" type="text" />
+    </div>
     <table id="product_table" class="table table-hover table-bordered">
       <thead>
         <tr>
@@ -57,8 +64,8 @@
         <tr>
           <td>Iphone 12 pro</td>
           <td>Apple</td>
+          <td>5</td>
           <td>80000</td>
-          <td>2000</td>
           <td>In stock</td>
         </tr>
         <tr>
